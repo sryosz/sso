@@ -53,7 +53,6 @@ func (s *serverAPI) Login(
 	return &ssov1.LoginResponse{
 		Token: token,
 	}, nil
-
 }
 
 func (s *serverAPI) Register(
